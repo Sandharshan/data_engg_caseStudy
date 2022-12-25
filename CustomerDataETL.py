@@ -43,6 +43,7 @@ def create_dataframe(file_name,file_path):
                 daraframe['product_id'] = daraframe.product_id.str.replace(' ', '')
             else:
                 print('Invalid file '+file_name)
+                err_check = 1
         
         else:
             err_check = 1
